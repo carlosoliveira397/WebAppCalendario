@@ -12,6 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>JSP</h1>
+        <h2>Index</h2>
+        <form action="calendario.jsp">
+            <input type="number" name="mes" min="1" max="12"/>
+            <input type="number" name="ano" min="1"/>
+            <input type="submit" name="sum" value="Calendário">
+        </form>
     </body>
 </html>
